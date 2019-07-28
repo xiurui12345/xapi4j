@@ -1,11 +1,11 @@
 package xapi4j.core.enums;
 
 /**
- * 接口类型
+ * 扫描类型
  *
  * @author ：gxr
  */
-public enum InterfaceTypeEnum implements BaseEnum<String> {
+public enum ScanTypeEnum implements BaseEnum<String> {
     /**
      * 控制器
      */
@@ -20,7 +20,7 @@ public enum InterfaceTypeEnum implements BaseEnum<String> {
     DUBBO("DUBBO", "Dubbo"),
     ;
 
-    InterfaceTypeEnum(String code, String name) {
+    ScanTypeEnum(String code, String name) {
         this.code = code;
         this.name = name;
     }

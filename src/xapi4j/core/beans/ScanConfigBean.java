@@ -1,6 +1,6 @@
 package xapi4j.core.beans;
 
-import xapi4j.core.enums.InterfaceTypeEnum;
+import xapi4j.core.enums.ScanTypeEnum;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -27,10 +27,11 @@ public class ScanConfigBean implements Serializable {
     /**
      * 扫描接口类型
      */
-    private List<InterfaceTypeEnum> interfaceTypeEnumList = new ArrayList<>();
+    private List<ScanTypeEnum> scanTypeEnums = new ArrayList<>();
 
 
     //region get set
+
     /**
      * 获取 扫描JAR文件
      *
@@ -88,19 +89,20 @@ public class ScanConfigBean implements Serializable {
     /**
      * 获取 扫描接口类型
      *
-     * @return interfaceTypeEnumList 扫描接口类型
+     * @return scanTypeEnums 扫描接口类型
      */
-    public List<InterfaceTypeEnum> getInterfaceTypeEnumList() {
-        return this.interfaceTypeEnumList;
+    public List<ScanTypeEnum> getScanTypeEnums() {
+        return this.scanTypeEnums;
     }
 
     /**
      * 设置 扫描接口类型
      *
-     * @param interfaceTypeEnumList 扫描接口类型
+     * @param scanTypeEnums 扫描接口类型
      */
-    public void setInterfaceTypeEnumList(List<InterfaceTypeEnum> interfaceTypeEnumList) {
-        this.interfaceTypeEnumList = interfaceTypeEnumList;
+    public void setScanTypeEnums(List<ScanTypeEnum> scanTypeEnums) {
+        this.scanTypeEnums = scanTypeEnums;
     }
+
     //endregion
 }
