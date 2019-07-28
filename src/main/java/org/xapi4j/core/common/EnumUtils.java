@@ -1,8 +1,6 @@
-package xapi4j.core.common;
+package org.xapi4j.core.common;
 
-import xapi4j.core.enums.BaseEnum;
-
-import java.util.EnumSet;
+import org.xapi4j.core.enums.BaseEnum;
 
 /**
  * 枚举工具类

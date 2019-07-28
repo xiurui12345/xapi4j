@@ -1,6 +1,6 @@
-package xapi4j.core.beans;
+package org.xapi4j.core.beans;
 
-import xapi4j.core.enums.ScanTypeEnum;
+import org.xapi4j.core.enums.ScanTypeEnum;
 
 import java.io.Serializable;
 import java.util.ArrayList;

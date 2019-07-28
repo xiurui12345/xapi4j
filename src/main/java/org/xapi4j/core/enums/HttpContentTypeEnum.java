@@ -1,4 +1,4 @@
-package xapi4j.core.enums;
+package org.xapi4j.core.enums;
 
 /**
  * HTTP请求内容类型

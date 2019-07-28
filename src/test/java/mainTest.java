@@ -1,7 +1,5 @@
-package test;
-
-import xapi4j.core.beans.ScanConfigBean;
-import xapi4j.core.enums.ScanTypeEnum;
+import org.xapi4j.core.beans.ScanConfigBean;
+import org.xapi4j.core.enums.ScanTypeEnum;
 
 import java.util.ArrayList;
 

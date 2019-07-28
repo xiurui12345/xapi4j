@@ -1,4 +1,4 @@
-package xapi4j.core.enums;
+package org.xapi4j.core.enums;
 
 /**
  * 扫描类型

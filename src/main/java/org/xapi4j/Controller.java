@@ -1,4 +1,4 @@
-package xapi4j;
+package org.xapi4j;
 
 public class Controller {
 }
